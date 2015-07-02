@@ -1,0 +1,23 @@
+There are several types of database relationships:
+- One to One Relationships
+- One to Many and Many to One Relationships
+- Many to Many Relationships
+- Self Referencing Relationships
+
+One to One Relationships:
+In a one-to-one relationship, a row in table A can have no more than one matching row in table B, and vice versa. A one-to-one relationship is created if both of the related columns are primary keys or have unique constraints.
+This type of relationship is not common because most information related in this way would be all in one table. You might use a one-to-one relationship to:
+Divide a table with many columns.
+Isolate part of a table for security reasons.
+Store data that is short-lived and could be easily deleted by simply deleting the table.
+Store information that applies only to a subset of the main table.
+
+One to Many and Many to One Relationships:
+A one-to-many relationship is the most common type of relationship. In this type of relationship, a row in table A can have many matching rows in table B, but a row in table B can have only one matching row in table A.
+Make a one-to-many relationship if only one of the related columns is a primary key or has a unique constraint.
+
+Many to Many Relationships:
+In a many-to-many relationship, a row in table A can have many matching rows in table B, and vice versa. You create such a relationship by defining a third table, called a junction table, whose primary key consists of the foreign keys from both table A and table B.
+
+Self Referencing Relationships:
+This is used when a table needs to have a relationship with itself. The primary / foreign key relationships can point to one and the same table

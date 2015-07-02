@@ -1,0 +1,9 @@
+NoSQL DEFINITION: Next Generation Databases mostly addressing some of the points: being non-relational, distributed, open-source and horizontally scalable.
+A NoSQL (often interpreted as Not only SQL) database provides a mechanism for storage and retrieval of data that is modelled in means other than the tabular relations used in relational databases.
+
+There have been various approaches to classify NoSQL databases, each with different categories and subcategories. Because of the variety of approaches and overlaps it is difficult to get and maintain an overview of non-relational databases. Nevertheless, a basic classification is based on data model. A few examples in each category are:
+Column: Accumulo, Cassandra, Druid, HBase, Vertica
+Document: Lotus Notes, Clusterpoint, Apache CouchDB, Couchbase, HyperDex, MarkLogic, MongoDB, OrientDB, Qizx
+Key-value: CouchDB, Dynamo, FoundationDB, HyperDex, MemcacheDB, Redis, Riak, FairCom c-treeACE, Aerospike, OrientDB, MUMPS
+Graph: Allegro, Neo4J, InfiniteGraph, OrientDB, Virtuoso, Stardog
+Multi-model: OrientDB, FoundationDB, ArangoDB, Alchemy Database, CortexDB

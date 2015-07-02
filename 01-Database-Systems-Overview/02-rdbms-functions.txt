@@ -1,0 +1,11 @@
+A relational database management system (RDBMS) is a database management system (DBMS) that is based on the relational model. Many popular databases currently in use are based on the relational database model.
+
+A relational DBMS is special system software that is used to manage the organization, storage, access, security and integrity of data. This specialized software allows application systems to focus on the user interface, data validation and screen navigation.  When there is a need to add, modify, delete or display data, the application system simply makes a "call" to the RDBMS.
+
+RDBMSs are a common choice for the storage of information in new databases used for financial records, manufacturing and logistical information, personnel data, and other applications since the 1980s. Relational databases have often replaced legacy hierarchical databases and network databases because they are easier to understand and use. However, relational databases have been challenged by object databases, which were introduced in an attempt to address the object-relational impedance mismatch in relational databases, and XML databases.
+
+Main functions:
+- Creating / altering / deleting tables and relationships between them (database schema)
+- Adding, changing, deleting, searching and retrieving of data rows stored in the tables
+- Support for the SQL language
+- Transaction management (optional)

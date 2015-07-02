@@ -1,0 +1,19 @@
+Database normalization is the process of organizing the attributes and tables of a relational database to minimize data redundancy.
+
+The Normalisation Process:
+Normalisation is a data analysis technique to design a database system. It allows the database designer to understand the current data structures within an organisation. Furthermore, it aids any future changes and enhancements to the system.
+
+The end result of normalisation is a set of entities, which removes unnecessary redundancy (ie duplication of data) and avoids the anomalies discussed earlier.
+
+Normalisation follows a staged process that obeys a set of rules.
+
+The steps of normalisation are:
+- Select the data source and convert into an unnormalised table (UNF)
+- Transform the unnormalised data into first normal form (1NF)
+- Transform data in first normal form (1NF) into second normal form (2NF)
+- Transform data in second normal form (2NF) into third normal form (3NF)
+
+Occasionally, the data may still be subject to anomalies in third normal form. In this case, we may have to perform further transformations:
+- Transform third normal form to Boyce-Codd normal form (BCNF)
+- Transform Boyce-Codd normal form to fourth normal form (4NF)
+- Transform fourth normal form to fifth normal form (5NF)

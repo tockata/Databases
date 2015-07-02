@@ -1,0 +1,6 @@
+Some of the benefits of normalization include the following:
+Faster sorting and index creation.
+A larger number of clustered indexes.
+Narrower and more compact indexes.
+Fewer indexes per table. This improves the performance of the INSERT, UPDATE, and DELETE statements.
+Fewer null values and less opportunity for inconsistency. This increases database compactness.

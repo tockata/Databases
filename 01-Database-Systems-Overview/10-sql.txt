@@ -1,0 +1,8 @@
+SQL or Structured Query Language and is a special-purpose programming language designed for managing data held in a relational database management system (RDBMS), or for stream processing in a relational data stream management system (RDSMS). SQL is standardized declarative language for manipulation of relational databases. It supports:
+- Creating, altering, deleting tables and other DB objects
+- searching, retrieving, inserting, modifying and deleting table data (data rows)
+
+Example:
+SELECT *
+ FROM  Students
+ WHERE age > 20;

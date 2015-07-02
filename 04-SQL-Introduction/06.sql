@@ -1,0 +1,2 @@
+SELECT Salary
+FROM Employees

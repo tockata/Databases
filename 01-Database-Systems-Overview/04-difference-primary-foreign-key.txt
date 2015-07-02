@@ -1,0 +1,16 @@
+A primary key is a column or group of columns that uniquely identify a row. Every table should have a primary key. And a table cannot have more than one primary key.
+
+A foreign key is a column or set of columns in one table whose values must have matching values in the primary key of another (or the same) table. A foreign key is said to reference its primary key. Foreign keys are a mechanism for maintaining data integrity.
+
+Difference between Primary Key & Foreign Key
+Primary Key:
+-Primary key uniquely identify a record in the table;
+-Primary Key can't accept null values;
+-By default, Primary key is clustered index and data in the database table is physically organized in the sequence of clustered index;
+-We can have only one Primary key in a table.
+
+Foreign Key:
+-Foreign key is a field in the table that is primary key in another table;
+-Foreign key can accept multiple null value;
+-Foreign key do not automatically create an index, clustered or non-clustered. You can manually create an index on foreign key;
+-We can have more than one foreign key in a table.
