@@ -1,0 +1,39 @@
+{
+  "_id" : ObjectId("559eb7d8eefe5427142ce209"),
+  "title" : "Title 1",
+  "content" : "Content 1",
+  "creationDate" : ISODate("2015-06-23T21:00:00Z"),
+  "category" : "Programming",
+  "tags" : ["C#", "JS", "PHP"],
+  "author" : {
+    "displayName" : "pesho",
+    "tweeterAccount" : "www.tweeter.com/pesho",
+    "linkedinAccount" : "www.linkedin.com/pesho"
+  }
+}
+{
+  "_id" : ObjectId("559eb8c1eefe5427142ce20a"),
+  "title" : "Title 2",
+  "content" : "Content 2",
+  "creationDate" : ISODate("2015-07-08T21:00:00Z"),
+  "category" : "Geography",
+  "tags" : ["Mountains", "Peaks", "Countries", "Continents"],
+  "author" : {
+    "displayName" : "gosho",
+    "tweeterAccount" : "www.tweeter.com/gosho",
+    "linkedinAccount" : "www.linkedin.com/gosho"
+  }
+}
+{
+  "_id" : ObjectId("559eb912eefe5427142ce20b"),
+  "title" : "Title 3",
+  "content" : "Content 3",
+  "creationDate" : ISODate("1999-01-30T22:00:00Z"),
+  "category" : "Football",
+  "tags" : ["Teams", "Matches", "Leagues"],
+  "author" : {
+    "displayName" : "mimi",
+    "tweeterAccount" : "www.tweeter.com/mimi",
+    "linkedinAccount" : "www.linkedin.com/mimi"
+  }
+}

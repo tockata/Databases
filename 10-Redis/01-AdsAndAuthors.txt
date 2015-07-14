@@ -1,0 +1,40 @@
+-- Clear databases:
+FLUSHALL
+
+-- Authors:
+SADD authors:usernames maria_p
+HSET authors:maria_p name "Maria Peneva"
+HSET authors:maria_p email "maria@gmail.com"
+HSET authors:maria_p phone "0899 12 34 56"
+
+SADD authors:usernames steve
+HSET authors:steve name "Steve Wilson"
+HSET authors:steve email "steve@yahoo.com"
+HSET authors:steve phone "0800 77 553 452"
+
+-- Ads:
+SET ads:count 4
+
+HSET ad:1 title "BMW 320 for Sale"
+HSET ad:1 description "BMW 320d, 2.0 diesel, 4 doors, automatic transmission. Year: 2007. Miles: 107,000. Price: 2400 EUR."
+HSET ad:1 location "Sofia"
+HSET ad:1 date "2014-12-26 12:37"
+HSET ad:1 author_username "maria_p"
+
+HSET ad:2 title "Job as Housekeeper"
+HSET ad:2 description "I am looking for a job as housekeeper."
+HSET ad:2 location "Plovdiv"
+HSET ad:2 date "2014-12-30 23:43"
+HSET ad:2 author_username "steve"
+
+HSET ad:3 title "3 bed apartment to let"
+HSET ad:3 description "Very good. A must see. Price: 750 EUR."
+HSET ad:3 location "Sofia"
+HSET ad:3 date "2015-01-17 10:44"
+HSET ad:3 author_username "maria_p"
+
+HSET ad:4 title "Free MP3 Player"
+HSET ad:4 description "Free MP3 player, broken."
+HSET ad:4 location "Rousse"
+HSET ad:4 date "2014-11-28 21:15"
+HSET ad:4 author_username "steve"
